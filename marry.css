@@ -1,0 +1,57 @@
+
+ *{
+      padding: 0;
+      margin: 0;
+ }
+ .container img{
+     width: 160px;
+ }
+ body{
+     background-color: gainsboro;
+ }
+ .container img:hover{
+     transform: rotate(0deg) scale(1.20);
+     -webkit-transform:  rotate(0deg) scale(1.20);
+     z-index: 2;
+     transition: all 0.5s ease-in;
+
+ }
+ .container{
+     width: 960px;
+     height: 450px;
+     margin: 150px auto;
+     position: relative;
+ }
+ .container img{
+     border: 1px solid white;
+     padding: 10px;
+     background-color: aliceblue;
+     /*transition: all 0.5s ease-in;*/
+     position: absolute;
+     z-index: 1;
+ }
+ .pic1{
+     transform: rotate(-5deg);
+     -webkit-transform: rotate(-5deg);
+     left: 50px;
+ }
+ .pic2{
+     transform: rotate(10deg);
+     -webkit-transform: rotate(10deg);
+     left: 230px;
+ }
+ .pic3{
+     transform: rotate(-5deg);
+     -webkit-transform: rotate(-5deg);
+     left: 420px;
+ }
+ .pic4{
+     transform: rotate(20deg);
+     -webkit-transform: rotate(20deg);
+     left: 610px;
+ }
+ .pic5{
+     transform: rotate(-8deg);
+     -webkit-transform: rotate(-8deg);
+     left: 800px;
+ }
